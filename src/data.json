@@ -1,0 +1,10 @@
+[
+  {
+    "temperature": 25.5,
+    "intensity": 150,
+    "voltageR1": 666,
+    "voltageR2": 3.5,
+    "voltageC1": 7,
+    "voltageC2": 4.2
+  }
+]

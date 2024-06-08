@@ -1,0 +1,116 @@
+body{
+  background-image: url(ee.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+  
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.data-card {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.data-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 150px;
+  align-items: center;
+}
+
+.data-box img {
+  width: 75px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.data-box1 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 170px;
+  align-items: center;
+}
+
+.data-box1 img {
+  width: 75px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.data-item {
+  margin: 5px 0;
+}
+
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 10%; /* Ensure the image doesn't exceed the box width */
+  max-height: 10%; /* Ensure the image doesn't exceed the box height */
+}
+
+h3{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* YourComponent.css */
+.bordered-text {
+  position: relative;
+  left: 35%;
+  display: inline-block;
+  border: 1px solid #fffdfd; /* Adjust the border style and color as needed */
+  padding: 5px; /* Adjust the padding as needed for spacing */
+  color: white;
+}
